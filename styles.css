@@ -130,3 +130,66 @@ header .series a {
     font-size: 1.8rem; /* Increased number font size */
     color: #d4b2ff;
 }
+
+/* Mobile Screen Adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 280px;
+        height: 380px;
+    }
+
+    .card-container {
+        gap: 10px;
+    }
+
+    .highlight {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .browse-btn {
+        padding: 8px 15px;
+    }
+
+    .top-line {
+        height: 6px;
+    }
+}
+
+/* Extra small devices like phones in portrait */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 240px;
+        height: 340px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlight {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .browse-btn {
+        padding: 6px 12px;
+    }
+
+    .top-line {
+        height: 4px;
+    }
+}
