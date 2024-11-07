@@ -19,7 +19,29 @@
         <h1>Artificial Intelligence</h1>
         <p>Events</p>
         <p class="series">College Of Applied Science <a href="#">Thamarassery</a></p>
-        <button class="browse-btn">Browse By Topic</button>
+        <!-- HTML for dropdown -->
+        <button class="browse-btn" id="browseBtn">Browse By Topic</button>
+
+        <div id="topicDropdown" class="dropdown" style="display:none;">
+            <ul>
+                <li><a href="#">AI Quiz</a></li>
+                <li><a href="#">Treasure Hunt</a></li>
+                <li><a href="#">AI Ideathon</a></li>
+                <li><a href="#">Typing Speed Test</a></li>
+                <li><a href="#">AI Debate</a></li>
+                <li><a href="#">AI Image Generation</a></li>
+            </ul>
+        </div>
+        
+        <script>
+          const browseBtn = document.getElementById("browseBtn");
+          const topicDropdown = document.getElementById("topicDropdown");
+        
+          browseBtn.addEventListener("click", () => {
+            topicDropdown.style.display = topicDropdown.style.display === "none" ? "block" : "none";
+          });
+        </script>
+        
     </header>
 
     <!-- Highlighted Section -->
