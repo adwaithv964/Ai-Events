@@ -2,3 +2,4 @@
 document.querySelector('.browse-btn').addEventListener('click', () => {
     alert('Browse topics button clicked!');
 });
+

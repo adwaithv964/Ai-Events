@@ -86,20 +86,20 @@ header .series a {
 .card {
     background-color: #2e2e30;
     padding: 25px;
-    width: 320px;  
+    width: 360px;  
     height: 450px;  
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-    border-radius: 15px;
+    border-radius: 18px;
     clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%); /* Adjusted angle for shape */
 }
 
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-    border: 6px solid transparent; /* Thicker border on hover */
+    border: 8px solid transparent; /* Thicker border on hover */
     border-image-slice: 1;
     border-image-source: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0); /* Vibrant gradient border on hover */
     clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
@@ -130,6 +130,32 @@ header .series a {
     font-size: 1.8rem; /* Increased number font size */
     color: #d4b2ff;
 }
+.card strong {
+    color: #f3a847;  /* Gold color for emphasis */
+}
+
+/* Registration Link Styling */
+.card a {
+    color: #4db8ff;  
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;   
+    display: inline-block;
+    border: 2px solid #4db8ff;   
+    padding: 6px 12px;   
+    border-radius: 5px;   
+    transition: all 0.3s ease;   
+    font-size: 14px;   
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: #fff;   
+    background-color: #4db8ff;   
+    border-color: #66ccff;  
+}
+
+
 
 /* Mobile Screen Adjustments */
 @media (max-width: 768px) {
@@ -190,6 +216,6 @@ header .series a {
     }
 
     .top-line {
-        height: 4px;
-    }
+        height: 4px;
+    }
 }
