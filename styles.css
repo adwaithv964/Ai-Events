@@ -195,8 +195,8 @@ header .series a {
     }
 
     .card {
-        width: 240px;
-        height: 450px; /* Increased height */
+        width: 250px;
+        height: 500px; /* Increased height */
     }
 
     .card-container {
