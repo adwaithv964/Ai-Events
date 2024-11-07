@@ -92,6 +92,31 @@
                 <p><strong>Date:</strong> 11 - 11 - 2024 (Monday)</p>
                 <p><strong>Registration:</strong> <a href="https://forms.gle/jExtGFv3Xm2qaWTD7" target="_blank">Register Now</a></p>
             </div>
+
+            <!-- Scroll to Top Button -->
+            <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">↑</button>
+            
+            <script>
+                // Show the button when scrolling down
+                window.onscroll = function() {scrollFunction()};
+        
+                function scrollFunction() {
+                    const scrollBtn = document.getElementById("scrollBtn");
+                    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                        scrollBtn.style.display = "block";
+                    } else {
+                        scrollBtn.style.display = "none";
+                    }
+                }
+        
+                // Smooth scroll to the top when the button is clicked
+                function scrollToTop() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
+            </script>
     </main>
 
 </body>
