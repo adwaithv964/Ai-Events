@@ -169,7 +169,7 @@ header .series a {
 
     .card {
         width: 280px;
-        height: 400px;
+        height: 480px; /* Increased height */
     }
 
     .card-container {
@@ -198,7 +198,7 @@ header .series a {
 
     .card {
         width: 240px;
-        height: 430px;
+        height: 400px; /* Increased height */
     }
 
     .card-container {
@@ -216,6 +216,6 @@ header .series a {
     }
 
     .top-line {
-        height: 4px;
-    }
+        height: 4px;
+    }
 }
