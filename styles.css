@@ -134,6 +134,7 @@ header .series a {
     color: #f3a847;  /* Gold color for emphasis */
 }
 
+
 /* Registration Link Styling */
 .card a {
     color: #4db8ff;  
@@ -156,7 +157,6 @@ header .series a {
 }
 
 
-
 /* Mobile Screen Adjustments */
 @media (max-width: 768px) {
     header h1 {
@@ -169,7 +169,7 @@ header .series a {
 
     .card {
         width: 280px;
-        height: 480px; /* Increased height */
+        height: 500px; /* Increased height */
     }
 
     .card-container {
@@ -198,7 +198,7 @@ header .series a {
 
     .card {
         width: 240px;
-        height: 400px; /* Increased height */
+        height: 450px; /* Increased height */
     }
 
     .card-container {
